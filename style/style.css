@@ -1,0 +1,293 @@
+@import "fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Rubik";
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav__list_link a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    height: 30px;
+    overflow: hidden;
+}
+
+form input {
+    background: transparent;
+    /* border: 1px solid #000000; */
+    padding: 8px 12px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    font-family: "Rubik";
+    width: 216px;
+    border: none;
+    outline: none;
+}
+
+form input::placeholder {
+    color: #000000;
+}
+
+.search {
+    background: #000000;
+    padding: 8px 17px;
+    font-size: 12px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    color: #ffffff;
+}
+
+.header__content {
+    height: 1000px;
+    background: url(../imagead/back.png) center center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.training {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 59px;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.beautiful {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.cards {
+    display: flex;
+}
+
+.cross {
+    width: 25%;
+    padding: 20px 20px;
+    text-align: center;
+    background: #181d28;
+}
+
+.shorts {
+    width: 25%;
+    padding: 20px 20px;
+    text-align: center;
+    background: #181d28;
+}
+
+
+.shirt {
+    width: 25%;
+    padding: 20px 20px;
+    text-align: center;
+    background: #181d28;
+}
+
+.port {
+    width: 25%;
+    padding: 20px 20px;
+    text-align: center;
+    background: #181d28;
+}
+
+p {
+    margin-top: 24px;
+    text-align: center;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.hov {
+    transition: 0.5s;
+}
+
+.hov:hover {
+    background: #6b4b6b;
+}
+
+.adidas {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.women {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    max-width: 1110px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.women1 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    max-width: 1110px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.liv {
+    width: 100%;
+}
+
+.image {
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+.lishki {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+
+.shoe {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+
+.linkinblack {
+ margin-top: 14px;
+}
+
+
+.linkin a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.linkinblack a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+
+
+
+.footer {
+    background: #181D28;
+}
+
+
+.put {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+
+.end {
+    display: flex;
+    gap: 30px;
+}
+
+
+.footer {
+    margin-top: 40px;
+}
+
+
+.foot a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.nav__list_link {
+    padding-top: 31px;
+    padding-bottom: 26px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.nav__list_link:hover {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.text__content{
+    padding: 0 10px;
+}

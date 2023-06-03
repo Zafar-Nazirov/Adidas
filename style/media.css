@@ -1,0 +1,82 @@
+@media(max-width:768px) {
+  .nav__item {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .cross {
+    width: 50%;
+  }
+
+  .shorts {
+    width: 50%;
+  }
+
+  .shirt {
+    width: 50%;
+  }
+
+  .port {
+    width: 50%;
+  }
+  
+  .header__content{
+    height: 800px;
+  }
+
+
+  .cards {
+    flex-wrap: wrap;
+  }
+  
+  .header__content div img{
+    width: 250px;
+  }
+  
+  .training{
+    font-size: 50px;
+  }
+  
+  .beautiful{
+    font-size: 20px;
+  }
+}
+
+@media(max-width:576px){
+  .lishki{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .put{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+}
+
+
+@media(max-width:375px){
+  .header__content div img{
+    width: 200px;
+  }
+  
+  .training{
+    font-size: 40px;
+  }
+  
+  .beautiful{
+    font-size: 15px;
+  }
+  
+  .header__content{
+    height: 600px;
+  }
+  
+  .lishki{
+    padding: 0 10px;
+  }
+  
+}
